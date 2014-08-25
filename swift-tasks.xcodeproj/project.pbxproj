@@ -13,6 +13,7 @@
 		CEC5BB4D19ABDA5900F1321D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5BB4B19ABDA5900F1321D /* Main.storyboard */; };
 		CEC5BB4F19ABDA5900F1321D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC5BB4E19ABDA5900F1321D /* Images.xcassets */; };
 		CEC5BB5B19ABDA5900F1321D /* swift_tasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5BB5A19ABDA5900F1321D /* swift_tasksTests.swift */; };
+		CEC5BB6719ABDB1300F1321D /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5BB6619ABDB1300F1321D /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CEC5BB5419ABDA5900F1321D /* swift-tasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-tasksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC5BB5919ABDA5900F1321D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC5BB5A19ABDA5900F1321D /* swift_tasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_tasksTests.swift; sourceTree = "<group>"; };
+		CEC5BB6619ABDB1300F1321D /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CEC5BB4B19ABDA5900F1321D /* Main.storyboard */,
 				CEC5BB4E19ABDA5900F1321D /* Images.xcassets */,
 				CEC5BB4319ABDA5900F1321D /* Supporting Files */,
+				CEC5BB6619ABDB1300F1321D /* TaskManager.swift */,
 			);
 			path = "swift-tasks";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				CEC5BB4A19ABDA5900F1321D /* SecondViewController.swift in Sources */,
 				CEC5BB4619ABDA5900F1321D /* AppDelegate.swift in Sources */,
+				CEC5BB6719ABDB1300F1321D /* TaskManager.swift in Sources */,
 				CEC5BB4819ABDA5900F1321D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

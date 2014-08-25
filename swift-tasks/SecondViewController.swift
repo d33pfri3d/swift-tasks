@@ -28,7 +28,14 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
     //Events
     
     @IBAction func btnAddTask_Click(sender: UIButton){
-      println("Add Buttons was clicked")
+      taskMgr.addTask(textTask.text, desc: textDesc.text)
+        self.view.endEditing(true)
+        textTask.text = ""
+        textDesc.text = ""
+        
+        self.tabBarController.selectedIndex = 0;
+        
+        
     }
     
     override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
